@@ -1,5 +1,3 @@
-package additional_tasks;
-
 import java.math.BigInteger;
 import java.util.Random;
 import java.util.Scanner;

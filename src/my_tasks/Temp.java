@@ -1,21 +1,20 @@
 package my_tasks;
 
-import java.util.Scanner;
+import java.math.BigInteger;
 
 /**
  * @author Volodymyr Burtsev at 13.04.2018 0:23
  */
 public class Temp {
     public static void main(String[] args) {
-        int an;
-        Scanner sc = new Scanner(System.in);
+        BigInteger bi1 = new BigInteger("7905")
+                .multiply(new BigInteger("2").pow(352281))
+                .add(new BigInteger("1"));
+        System.out.println(bi1.toString().length());
 
-        System.out.println("vvedite c");
-        int c = sc.nextInt();
-
-        System.out.println("vvedite b");
-        int b = sc.nextInt();
-
-        an = 12 * Math.max(c, b) + Math.min(2 * c, b - 1);
+        BigInteger bi2 = new BigInteger("475856")
+                .pow(524288);
+        System.out.println(bi2.toString().length());
+//        System.out.println(bi.isProbablePrime(1));
     }
 }
