@@ -1,9 +1,9 @@
-package my_tasks.gf;
+package my_tasks.temp;
 
-public class Test01 {
+public class Temp4 {
 
     public static void main(String[] args) {
-        Test01 t = new Test01();
+        Temp4 t = new Temp4();
         t.start();
     }
 

@@ -17,7 +17,7 @@ public class Buckets {
 //        int amount = new Random().nextInt(100);
         int amount = 9;
 
-        List<Integer> volumes = Arrays.asList(20, 10, 5, 2, 1);
+        List<Integer> volumes = new LinkedList<>(Arrays.asList(20, 10, 5, 2, 1));
 
         long begin = System.nanoTime();
         List<Map<Integer, Integer>> variants = getVariants(amount, volumes);
